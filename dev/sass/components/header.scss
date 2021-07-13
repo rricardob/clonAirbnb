@@ -1,0 +1,36 @@
+/* Inicio estilos header */
+@import '../config/variables.scss';
+
+.header {
+  &__container {
+    display: flex;
+    height: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    align-items: center;
+
+    background-color: orange;
+  }
+
+  &__left {
+    display: flex;
+    margin-left: $layout-ml;
+    background-color: red;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: $layout-mr;
+
+    background-color: green;
+  }
+
+  &__city,
+  &__menu-filter {
+    margin-left: 1rem;
+  }
+}
+
+/* Fin estilos header */
